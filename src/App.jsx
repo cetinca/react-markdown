@@ -11,7 +11,7 @@ import {
     setDoc
 } from "firebase/firestore"
 import { notesCollection, db } from "./firebase"
-import "./index.css"
+import "./App.css"
 
 export default function App() {
     const [notes, setNotes] = React.useState([])
